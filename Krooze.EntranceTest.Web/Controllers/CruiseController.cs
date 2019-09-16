@@ -12,6 +12,8 @@ using Krooze.EntranceTest.WriteHere.Structure.Model;
 
 namespace Krooze.EntranceTest.Web.Controllers
 {
+    [Route("api/cruise")]
+    [ApiController]
     public class CruiseController : BaseController
     {
         public IInjectionTest _injectionTest;
