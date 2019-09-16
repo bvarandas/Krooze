@@ -9,12 +9,16 @@ namespace Krooze.EntranceTest.WriteHere.Structure.Implementations
         public int CruiseCompanyCode => 3;
         public List<CruiseDTO> GetCruises(CruiseRequestDTO request)
         {
-            return new List<CruiseDTO>()
+            var list = new List<CruiseDTO>();
+
+            list= new List<CruiseDTO>()
             {
                 new CruiseDTO(){ CruiseCode = "C3"},
                 new CruiseDTO(){ CruiseCode = "C3"},
                 new CruiseDTO(){ CruiseCode = "C3"},
             };
+
+            return list;
         }
     }
 }

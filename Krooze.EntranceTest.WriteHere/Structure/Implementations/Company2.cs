@@ -14,9 +14,7 @@ namespace Krooze.EntranceTest.WriteHere.Structure.Implementations
                 new CruiseDTO(){CruiseCode = "C2"},
                 new CruiseDTO(){CruiseCode = "C2"}
             };
-
-            list.AddRange(new Company3().GetCruises(request));
-
+            
             return list;
         }
     }

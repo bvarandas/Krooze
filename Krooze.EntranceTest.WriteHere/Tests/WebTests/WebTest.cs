@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace Krooze.EntranceTest.WriteHere.Tests.WebTests
 {
-    public class WebTest
+    public class WebTest : IWebTest
     {
         
 

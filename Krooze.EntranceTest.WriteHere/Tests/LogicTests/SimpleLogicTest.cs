@@ -3,8 +3,10 @@ using System;
 
 namespace Krooze.EntranceTest.WriteHere.Tests.LogicTests
 {
-    public class SimpleLogicTest
+    public class SimpleLogicTest : ISimpleLogicTest
     {
+
+        
         public decimal? GetOtherTaxes(CruiseDTO cruise)
         {
             //TODO: Based on the CruisesDTO object, gets if there is some other tax that not the port charge

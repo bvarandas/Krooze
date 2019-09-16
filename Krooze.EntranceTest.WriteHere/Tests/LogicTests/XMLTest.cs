@@ -9,7 +9,7 @@ using System.Xml;
 
 namespace Krooze.EntranceTest.WriteHere.Tests.LogicTests
 {
-    public class XMLTest
+    public class XMLTest : IXMLTest
     {
         public CruiseDTO TranslateXML()
         {
